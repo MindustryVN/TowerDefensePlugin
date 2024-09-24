@@ -1,0 +1,7 @@
+{
+    "name": "Tower Defense",
+    "author": "Yuii",
+    "main": "towerdefense.TowerDefensePlugin",
+    "description": "Tower defense",
+    "version": 1.0
+}
