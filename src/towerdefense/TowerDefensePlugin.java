@@ -212,7 +212,8 @@ public class TowerDefensePlugin extends Plugin {
         }), 0f, 1f);
 
         Timer.schedule(() -> {
-            Groups.player.each((player) -> Call.infoPopup("ui.multiplier", 1f, 20, 50, 20, 450, 0));
+            Groups.player.each(
+                    (player) -> Call.infoPopup("Hp multiplier: %s".formatted(multiplier), 1f, 20, 50, 20, 450, 0));
 
         }, 0f, 1f);
 
