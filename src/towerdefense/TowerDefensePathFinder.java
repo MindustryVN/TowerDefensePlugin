@@ -57,7 +57,7 @@ public class TowerDefensePathFinder extends Pathfinder {
 
     // Temp
     public static int get(int health, int team, boolean solid, boolean liquid, boolean legSolid, boolean nearLiquid, boolean nearGround, boolean nearSolid, boolean nearLegSolid, boolean deep, boolean damages, boolean allDeep, boolean nearDeep, boolean teamPassable) {
-      return (int)((long)(health << 0) & 255L | (long)(team << 8) & 65280L | (solid ? 65536L : 0L) | (liquid ? 131072L : 0L) | (legSolid ? 262144L : 0L) | (nearLiquid ? 524288L : 0L) | (nearGround ? 1048576L : 0L) | (nearSolid ? 2097152L : 0L) | (nearLegSolid ? 4194304L : 0L) | (deep ? 8388608L : 0L) | (damages ? 16777216L : 0L) | (allDeep ? 33554432L : 0L) | (nearDeep ? 67108864L : 0L) | (teamPassable ? 134217728L : 0L))
+      return (int)((long)(health << 0) & 255L | (long)(team << 8) & 65280L | (solid ? 65536L : 0L) | (liquid ? 131072L : 0L) | (legSolid ? 262144L : 0L) | (nearLiquid ? 524288L : 0L) | (nearGround ? 1048576L : 0L) | (nearSolid ? 2097152L : 0L) | (nearLegSolid ? 4194304L : 0L) | (deep ? 8388608L : 0L) | (damages ? 16777216L : 0L) | (allDeep ? 33554432L : 0L) | (nearDeep ? 67108864L : 0L) | (teamPassable ? 134217728L : 0L));
     }
 
     public static boolean isPath(Tile tile) {
